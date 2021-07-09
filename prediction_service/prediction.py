@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 
 params_path="params.yaml"
-schema_path=os.path.join("C:/Users/subha/Data_Science/mlflow_DVC/simple_app - github/prediction_service","schema_in.json")
+schema_path=os.path.join("prediction_service","schema_in.json")
 
 
 class NotInRange(Exception):
