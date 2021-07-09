@@ -8,8 +8,11 @@ import numpy as np
 from prediction_service import prediction
 
 
-param_path= "C:/Users/subha/Data_Science/mlflow_DVC/simple_app/params.yaml"
-webapp_root="C:/Users/subha/Data_Science/mlflow_DVC/simple_app/webapp"
+# param_path= "C:/Users/subha/Data_Science/mlflow_DVC/simple_app/params.yaml"
+# webapp_root="C:/Users/subha/Data_Science/mlflow_DVC/simple_app/webapp"
+
+param_path= "params.yaml"
+webapp_root="simple_app/webapp"
 
 static_dir=os.path.join(webapp_root,"static")
 template_dir=os.path.join(webapp_root,"templates")
